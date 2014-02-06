@@ -11,17 +11,17 @@
 # Last mod : 02-Oct-2013
 # -----------------------------------------------------------------------------
 # This file is part of Spending Stories.
-# 
+#
 #     Spending Stories is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU General Public License as published by
 #     the Free Software Foundation, either version 3 of the License, or
 #     (at your option) any later version.
-# 
+#
 #     Spending Stories is distributed in the hope that it will be useful,
 #     but WITHOUT ANY WARRANTY; without even the implied warranty of
 #     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #     GNU General Public License for more details.
-# 
+#
 #     You should have received a copy of the GNU General Public License
 #     along with Spending Stories.  If not, see <http://www.gnu.org/licenses/>.
 from django.utils.translation import ugettext_lazy as _
@@ -63,14 +63,14 @@ ALLOWED_HOSTS = []
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'Europe/London'
+TIME_ZONE = 'Europe/Madrid'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en_GB'
+LANGUAGE_CODE = 'es_ES'
 
 LANGUAGES = (
-    ('en_GB', _("English")),
+    ('es_ES', _("Spanish")),
 )
 
 SITE_ID = 1
@@ -184,7 +184,7 @@ INSTALLED_APPS = (
     'compressor',               # Compresses linked and inline JavaScript or CSS into a single cached file.
     'south',                    # helps with database migrations
     'redactor',                  # wysiwyg editor
-    # Internal applications added 
+    # Internal applications added
     'webapp',
     'webapp.api',
     'webapp.core',
