@@ -65,7 +65,7 @@ AWS_SECRET_ACCESS_KEY   = os.environ.get('AWS_SECRET_ACCESS_KEY', '')
 AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME', '')
 AWS_QUERYSTRING_AUTH    = False
 AWS_S3_FILE_OVERWRITE   = True
-STATIC_URL              = 'https://%s.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
+STATIC_URL              = 'http://%s.s3.amazonaws.com/' % AWS_STORAGE_BUCKET_NAME
 
 COMPRESS_URL            = STATIC_URL
 COMPRESS_STORAGE        = STATICFILES_STORAGE
