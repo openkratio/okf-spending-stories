@@ -32,7 +32,7 @@ angular
                             prefix: STATIC_URL + 'locales/'
                             suffix: '.json'
 
-                $translateProvider.preferredLanguage('en_GB')
+                $translateProvider.preferredLanguage('es_ES')
                 $translateProvider.useMissingTranslationHandlerLog()
 
 
