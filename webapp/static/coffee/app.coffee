@@ -36,6 +36,7 @@ angular
                 $translateProvider.useMissingTranslationHandlerLog()
 
 
+
                 RestangularProvider.setBaseUrl("/api")
                 RestangularProvider.setRequestSuffix('/')
                 # All services will be cached
