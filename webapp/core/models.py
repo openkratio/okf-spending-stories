@@ -128,6 +128,7 @@ class Story(models.Model):
         verbose_name_plural = "stories"
 
     def set_current_value(self):
+        self.country = "ESP"
         inflation_amount, inflation_year = inflation.get_inflation(amount=self.value, year=self.year, country=self.country)
         self.current_value       = inflation_amount
         self.inflation_last_year = inflation_year

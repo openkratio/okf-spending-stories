@@ -92,7 +92,8 @@ class CPI(object):
         country = self.country if country is None else country
 
         # Get the data for the given country (we store it as uppercase)
-        country_data = self.data[country.upper()]
+	# import pdb; pdb.set_trace()
+        country_data = self.data["ESP"]
 
         # Find the closest date
         closest_date = min(country_data.keys(),
