@@ -43,17 +43,18 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME'    : ROOT_PATH + '/dev.db', # Or path to database file if using sqlite3.
+        'ENGINE': '<%= @db_engine %>', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME'    : '<%= @db_sqlite_name %>', # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER'    : '',
-        'PASSWORD': '',
-        'HOST'    : '', # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT'    : '', # Set to empty string for default.
+        'USER'    : '<%= @db_username %>',
+        'PASSWORD': '<%= @db_password %>',
+        'HOST'    : '<%= @db_host %>', # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        'PORT'    : '<%= @db_port %>', # Set to empty string for default.
     }
-} # see documentation here https://docs.djangoproject.com/en/dev/ref/databases/
+}
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
