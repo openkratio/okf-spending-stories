@@ -4,7 +4,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/admin.svg", 
+        "image": "", 
         "description": null, 
         "title": "admin"
     }
@@ -14,9 +14,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/admin-culture.svg", 
+        "image": "themes/Flaticon_24759.svg", 
         "description": null, 
-        "title": "admin-culture"
+        "title": "administracion-publica"
     }
 },
 {
@@ -24,9 +24,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/admin-order-safety.svg", 
+        "image": "", 
         "description": null, 
-        "title": "admin-order-safety"
+        "title": "seguridad-ciudadana"
     }
 },
 {
@@ -34,7 +34,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/africa.svg", 
+        "image": "", 
         "description": null, 
         "title": "africa"
     }
@@ -43,8 +43,8 @@
     "pk": "aid", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/aid.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "aid"
     }
@@ -54,17 +54,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/aid-developing-countries.svg", 
+        "image": "themes/Flaticon_27545.svg", 
         "description": null, 
-        "title": "aid-developing-countries"
+        "title": "cooperacion"
     }
 },
 {
     "pk": "airplane", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/airplane.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "airplane"
     }
@@ -73,8 +73,8 @@
     "pk": "ambulance", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/ambulance.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "ambulance"
     }
@@ -84,7 +84,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/anchor.svg", 
+        "image": "", 
         "description": null, 
         "title": "anchor"
     }
@@ -94,7 +94,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/asia.svg", 
+        "image": "", 
         "description": null, 
         "title": "asia"
     }
@@ -103,8 +103,8 @@
     "pk": "books", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/books.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "books"
     }
@@ -113,8 +113,8 @@
     "pk": "car", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/car.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "car"
     }
@@ -123,8 +123,8 @@
     "pk": "civil-defence", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/civil-defence.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "civil-defence"
     }
@@ -133,8 +133,8 @@
     "pk": "civilian-action", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/civilian-action.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "civilian-action"
     }
@@ -143,8 +143,8 @@
     "pk": "coal", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/coal.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "coal"
     }
@@ -154,17 +154,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/communication.svg", 
+        "image": "themes/Flaticon_32456.svg", 
         "description": null, 
-        "title": "communication"
+        "title": "comunicacion"
     }
 },
 {
     "pk": "community", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/community.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "community"
     }
@@ -174,9 +174,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/construction.svg", 
+        "image": "themes/Flaticon_24751.svg", 
         "description": null, 
-        "title": "construction"
+        "title": "construccion"
     }
 },
 {
@@ -184,9 +184,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/courts.svg", 
+        "image": "themes/Flaticon_39850.svg", 
         "description": null, 
-        "title": "courts"
+        "title": "justicia"
     }
 },
 {
@@ -194,17 +194,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/culture.svg", 
+        "image": "themes/Flaticon_44160.svg", 
         "description": null, 
-        "title": "culture"
+        "title": "cultura"
     }
 },
 {
     "pk": "defence", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/defence.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "defence"
     }
@@ -214,17 +214,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/defence-admin.svg", 
+        "image": "themes/Flaticon_27963.svg", 
         "description": null, 
-        "title": "defence-admin"
+        "title": "defensa"
     }
 },
 {
     "pk": "defence-research", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/defence-research.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "defence-research"
     }
@@ -234,7 +234,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/dental.svg", 
+        "image": "", 
         "description": null, 
         "title": "dental"
     }
@@ -243,8 +243,8 @@
     "pk": "dollar", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/dollar.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "dollar"
     }
@@ -263,8 +263,8 @@
     "pk": "economic-aid", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/economic-aid.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "economic-aid"
     }
@@ -274,9 +274,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/economy-tourism.svg", 
+        "image": "themes/Flaticon_45111.svg", 
         "description": null, 
-        "title": "economy-tourism"
+        "title": "turismo"
     }
 },
 {
@@ -284,17 +284,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/education.svg", 
+        "image": "themes/Flaticon_43072.svg", 
         "description": null, 
-        "title": "education"
+        "title": "educacion"
     }
 },
 {
     "pk": "electricity", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/electricity.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "electricity"
     }
@@ -304,9 +304,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/energy.svg", 
+        "image": "themes/Flaticon_44972.svg", 
         "description": null, 
-        "title": "energy"
+        "title": "energia"
     }
 },
 {
@@ -314,7 +314,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/energy2.svg", 
+        "image": "", 
         "description": null, 
         "title": "energy2"
     }
@@ -324,17 +324,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/environment.svg", 
+        "image": "themes/Flaticon_31747.svg", 
         "description": null, 
-        "title": "environment"
+        "title": "medio-ambiente"
     }
 },
 {
     "pk": "environment-admin", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/environment-admin.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "environment-admin"
     }
@@ -343,8 +343,8 @@
     "pk": "euro", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/euro.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "euro"
     }
@@ -353,8 +353,8 @@
     "pk": "family", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/family.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "family"
     }
@@ -364,7 +364,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/family2.svg", 
+        "image": "", 
         "description": null, 
         "title": "family2"
     }
@@ -374,9 +374,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/farms.svg", 
+        "image": "themes/Flaticon_2145.svg", 
         "description": null, 
-        "title": "farms"
+        "title": "agricultura"
     }
 },
 {
@@ -384,9 +384,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/financial-admin.svg", 
+        "image": "themes/Flaticon_31574.svg", 
         "description": null, 
-        "title": "financial-admin"
+        "title": "finanzas"
     }
 },
 {
@@ -394,7 +394,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/fire-brigade.svg", 
+        "image": "", 
         "description": null, 
         "title": "fire-brigade"
     }
@@ -404,17 +404,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/fishing.svg", 
+        "image": "themes/Flaticon_2523.svg", 
         "description": null, 
-        "title": "fishing"
+        "title": "pesca"
     }
 },
 {
     "pk": "foreign-military-aid", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/foreign-military-aid.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "foreign-military-aid"
     }
@@ -423,8 +423,8 @@
     "pk": "forest", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/forest.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "forest"
     }
@@ -433,8 +433,8 @@
     "pk": "fuel", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/fuel.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "fuel"
     }
@@ -443,8 +443,8 @@
     "pk": "garbage", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/garbage.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "garbage"
     }
@@ -454,9 +454,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/government.svg", 
+        "image": "themes/Flaticon_22715.svg", 
         "description": null, 
-        "title": "government"
+        "title": "gobierno"
     }
 },
 {
@@ -464,7 +464,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/government-uk.svg", 
+        "image": "", 
         "description": null, 
         "title": "government-uk"
     }
@@ -474,7 +474,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/harbor.svg", 
+        "image": "", 
         "description": null, 
         "title": "harbor"
     }
@@ -484,17 +484,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/health.svg", 
+        "image": "themes/Flaticon_504.svg", 
         "description": null, 
-        "title": "health"
+        "title": "sanidad"
     }
 },
 {
     "pk": "helping-others", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/helping-others.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "helping-others"
     }
@@ -503,8 +503,8 @@
     "pk": "hospital", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/hospital.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "hospital"
     }
@@ -513,8 +513,8 @@
     "pk": "hospital-specialized", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/hospital-specialized.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "hospital-specialized"
     }
@@ -524,17 +524,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/housing.svg", 
+        "image": "themes/Flaticon_20176.svg", 
         "description": null, 
-        "title": "housing"
+        "title": "vivienda"
     }
 },
 {
     "pk": "human-resources", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/human-resources.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "human-resources"
     }
@@ -544,7 +544,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/island.svg", 
+        "image": "", 
         "description": null, 
         "title": "island"
     }
@@ -554,9 +554,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/labour.svg", 
+        "image": "themes/Flaticon_1987.svg", 
         "description": null, 
-        "title": "labour"
+        "title": "empleo"
     }
 },
 {
@@ -564,9 +564,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/legislative.svg", 
+        "image": "themes/Flaticon_1430.svg", 
         "description": null, 
-        "title": "legislative"
+        "title": "legislativo"
     }
 },
 {
@@ -574,17 +574,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/manufactoring-construction.svg", 
+        "image": "themes/Flaticon_18222.svg", 
         "description": null, 
-        "title": "manufactoring-construction"
+        "title": "industria"
     }
 },
 {
     "pk": "media", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/media.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "media"
     }
@@ -593,8 +593,8 @@
     "pk": "medical-supplies", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/medical-supplies.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "medical-supplies"
     }
@@ -604,7 +604,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/microscope.svg", 
+        "image": "", 
         "description": null, 
         "title": "microscope"
     }
@@ -613,8 +613,8 @@
     "pk": "military", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/military.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "military"
     }
@@ -623,8 +623,8 @@
     "pk": "misc-services", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/misc-services.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "misc-services"
     }
@@ -634,9 +634,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/money.svg", 
+        "image": "themes/Flaticon_31574.svg", 
         "description": null, 
-        "title": "money"
+        "title": "economia"
     }
 },
 {
@@ -644,7 +644,7 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/nuclear.svg", 
+        "image": "themes/Flaticon_31709.svg", 
         "description": null, 
         "title": "nuclear"
     }
@@ -654,17 +654,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/old-age.svg", 
+        "image": "themes/Flaticon_46936.svg", 
         "description": null, 
-        "title": "old-age"
+        "title": "pensiones"
     }
 },
 {
     "pk": "order-safety", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/order-safety.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "order-safety"
     }
@@ -673,8 +673,8 @@
     "pk": "other-medical", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/other-medical.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "other-medical"
     }
@@ -683,8 +683,8 @@
     "pk": "our-streets", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/our-streets.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "our-streets"
     }
@@ -693,8 +693,8 @@
     "pk": "petrol", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/petrol.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "petrol"
     }
@@ -704,7 +704,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/planning.svg", 
+        "image": "", 
         "description": null, 
         "title": "planning"
     }
@@ -714,7 +714,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/police.svg", 
+        "image": "", 
         "description": null, 
         "title": "police"
     }
@@ -723,8 +723,8 @@
     "pk": "police2", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/police2.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "police2"
     }
@@ -734,17 +734,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/pollution.svg", 
+        "image": "themes/Flaticon_9279.svg", 
         "description": null, 
-        "title": "pollution"
+        "title": "contaminacion"
     }
 },
 {
     "pk": "post-secondary", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/post-secondary.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "post-secondary"
     }
@@ -754,7 +754,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/pound.svg", 
+        "image": "", 
         "description": null, 
         "title": "pound"
     }
@@ -763,8 +763,8 @@
     "pk": "pound2", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/pound2.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "pound2"
     }
@@ -773,8 +773,8 @@
     "pk": "pre-school", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/pre-school.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "pre-school"
     }
@@ -783,8 +783,8 @@
     "pk": "primary", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/primary.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "primary"
     }
@@ -793,8 +793,8 @@
     "pk": "prisons", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/prisons.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "prisons"
     }
@@ -804,17 +804,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/public-debt.svg", 
+        "image": "themes/Flaticon_10704.svg", 
         "description": null, 
-        "title": "public-debt"
+        "title": "deuda-publica"
     }
 },
 {
     "pk": "publicaffairs", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/publicaffairs.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "publicaffairs"
     }
@@ -823,8 +823,8 @@
     "pk": "railways", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/railways.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "railways"
     }
@@ -833,8 +833,8 @@
     "pk": "rd-order-safety", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/rd-order-safety.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "rd-order-safety"
     }
@@ -844,17 +844,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/research.svg", 
+        "image": "themes/Flaticon_14449.svg", 
         "description": null, 
-        "title": "research"
+        "title": "investigacion"
     }
 },
 {
     "pk": "satellite-dish", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/satellite-dish.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "satellite-dish"
     }
@@ -863,8 +863,8 @@
     "pk": "schools", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/schools.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "schools"
     }
@@ -873,8 +873,8 @@
     "pk": "secondary-lower", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/secondary-lower.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "secondary-lower"
     }
@@ -883,8 +883,8 @@
     "pk": "secondary-upper", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/secondary-upper.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "secondary-upper"
     }
@@ -894,9 +894,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/social-systems.svg", 
+        "image": "themes/Flaticon_14323.svg", 
         "description": null, 
-        "title": "social-systems"
+        "title": "seguridad-social"
     }
 },
 {
@@ -904,17 +904,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/sports.svg", 
+        "image": "themes/Flaticon_38377.svg", 
         "description": null, 
-        "title": "sports"
+        "title": "deportes"
     }
 },
 {
     "pk": "street-lights", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/street-lights.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "street-lights"
     }
@@ -924,7 +924,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/toilet.svg", 
+        "image": "", 
         "description": null, 
         "title": "toilet"
     }
@@ -933,8 +933,8 @@
     "pk": "traffic-watersup", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/traffic-watersup.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "traffic-watersup"
     }
@@ -944,17 +944,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/transport.svg", 
+        "image": "themes/Flaticon_43744.svg", 
         "description": null, 
-        "title": "transport"
+        "title": "transporte"
     }
 },
 {
     "pk": "tree", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/tree.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "tree"
     }
@@ -963,8 +963,8 @@
     "pk": "unemployment", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/unemployment.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "unemployment"
     }
@@ -973,8 +973,8 @@
     "pk": "unknown", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/unknown.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "unknown"
     }
@@ -984,9 +984,9 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/waste.svg", 
+        "image": "themes/Flaticon_27872.svg", 
         "description": null, 
-        "title": "waste"
+        "title": "residuos"
     }
 },
 {
@@ -994,17 +994,17 @@
     "model": "core.theme", 
     "fields": {
         "active": true, 
-        "image": "themes/water.svg", 
+        "image": "themes/Flaticon_3883.svg", 
         "description": null, 
-        "title": "water"
+        "title": "agua"
     }
 },
 {
     "pk": "wheelchair", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/wheelchair.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "wheelchair"
     }
@@ -1013,8 +1013,8 @@
     "pk": "wind", 
     "model": "core.theme", 
     "fields": {
-        "active": true, 
-        "image": "themes/wind.svg", 
+        "active": false, 
+        "image": "", 
         "description": null, 
         "title": "wind"
     }
@@ -1024,7 +1024,7 @@
     "model": "core.theme", 
     "fields": {
         "active": false, 
-        "image": "themes/worldmap.svg", 
+        "image": "", 
         "description": null, 
         "title": "worldmap"
     }
