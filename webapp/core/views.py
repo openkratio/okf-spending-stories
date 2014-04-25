@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from django.http                    import Http404
-from django.shortcuts               import render_to_response, get_object_or_404
+from django.shortcuts               import render_to_response
 from django.template                import RequestContext, TemplateDoesNotExist
 from django.views.decorators.csrf   import ensure_csrf_cookie
 from .models import Page
@@ -23,8 +23,3 @@ def partial(request, partial_name=None):
 def embed(request):
     return render_to_response('embed.html', context_instance=RequestContext(request))
 
-
-def pages(request, slug):
-    page = get_object_or_404(Page, slug__iexact=slug)
-    return render_to_response(
-        'static_page.html', {'page': page }, context_instance=RequestContext(request))

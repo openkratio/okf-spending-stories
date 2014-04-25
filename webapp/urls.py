@@ -44,5 +44,4 @@ urlpatterns = patterns('',
     url(r'^partial/(?P<partial_name>([a-zA-Z0-9_\-/]+))\.html$', 'webapp.core.views.partial', name='partial'),
     url(r'^redactor/', include('redactor.urls')),
     url(r'^embed', 'webapp.core.views.embed'),
-    url(r'^(?P<slug>([a-zA-Z0-9_\-/]+))/$', 'webapp.core.views.pages'),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # serving media folder in debug mode

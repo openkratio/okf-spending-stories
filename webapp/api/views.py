@@ -11,17 +11,17 @@
 # Last mod : 07-Oct-2013
 # -----------------------------------------------------------------------------
 # This file is part of Spending Stories.
-# 
+#
 #     Spending Stories is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU General Public License as published by
 #     the Free Software Foundation, either version 3 of the License, or
 #     (at your option) any later version.
-# 
+#
 #     Spending Stories is distributed in the hope that it will be useful,
 #     but WITHOUT ANY WARRANTY; without even the implied warranty of
 #     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #     GNU General Public License for more details.
-# 
+#
 #     You should have received a copy of the GNU General Public License
 #     along with Spending Stories.  If not, see <http://www.gnu.org/licenses/>.
 
@@ -48,7 +48,7 @@ class StoryPermission(permissions.BasePermission):
     Permissions for Stories
     """
     def has_permission(self, request, view):
-        # Authorize if it's a read request 
+        # Authorize if it's a read request
         if request.method in permissions.SAFE_METHODS:
             # Check permissions for read-only request
             return True
@@ -169,7 +169,7 @@ class FiltersViewSet(viewsets.ViewSet):
         for currency in currencies:
             if Story.objects.public().filter(lang=lang, currency__iso_code=currency['iso_code']).count() > 0 :
                 filters['currency'].append({
-                        'key':currency['iso_code'], 
+                        'key':currency['iso_code'],
                         'value':currency['name']
                 })
         # themes
@@ -177,20 +177,20 @@ class FiltersViewSet(viewsets.ViewSet):
         for theme in themes:
             if Story.objects.public().filter(lang=lang, themes__slug=theme['slug']).count() > 0 :
                 filters['theme'].append({
-                        'key':theme['slug'], 
+                        'key':theme['slug'],
                         'value':theme['title']
                 })
         # countries
         for country in webapp.core.fields.COUNTRIES:
             if Story.objects.public().filter(lang=lang, country=country[0]).count() > 0 :
                 filters['country'].append({
-                        'key':country[0], 
+                        'key':country[0],
                         'value':country[1]
                 })
 
         for language in settings.LANGUAGES:
             filters['lang'].append({
-                    'key': language[0], 
+                    'key': language[0],
                     "value": language[1]
             })
         return Response(filters)
@@ -201,7 +201,7 @@ class FiltersViewSet(viewsets.ViewSet):
 #
 # -----------------------------------------------------------------------------
 class CountryViewSet(ChoicesViewSet):
-    class Meta: 
+    class Meta:
         choices = webapp.core.fields.COUNTRIES
     def create_element(self, c):
         return {"iso_code": c[0], "name": c[1]}
@@ -213,7 +213,7 @@ class CountryViewSet(ChoicesViewSet):
 #
 # -----------------------------------------------------------------------------
 class LanguageViewSet(ChoicesViewSet):
-    class Meta: 
+    class Meta:
         choices = settings.LANGUAGES
     def create_element(self, lang):
         return {"code": lang[0], "name": lang[1]}
