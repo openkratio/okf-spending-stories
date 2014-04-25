@@ -57,7 +57,9 @@
 
 {% block content %}
     {% include "partials/header.html" %}
-    <div ng-view id="content" class="container" ng-class="{loading: loading, home : getContentClass()}"></div>
+    <div ng-view id="content" class="container" ng-class="{loading: loading, home : getContentClass()}">
+    {{ page.content }}
+    </div>
     <footer>
         <div class="container">        
             <div class="row">
@@ -66,13 +68,6 @@
                     <div class="col links">
                         <a href="#/about">[[about]]</a>
                     </div>
-                    {% with cached_pages=pages %}
-                    {% for page in cached_pages %}
-                    <div class="col links">
-                        <a href="#/{{page.slug}}">[[{{page.title}}]]</a>
-                    </div>
-                    {% endfor %}
-                    {% endwith %}
                 </div>
                 <div class="col-sm-offset-2 col-sm-3 col-md-3 col-md-offset-1 col">
                     <a href="http://knightfoundation.org" target="_blank">
