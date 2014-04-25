@@ -66,6 +66,13 @@
                     <div class="col links">
                         <a href="#/about">[[about]]</a>
                     </div>
+                    {% with cached_pages=pages %}
+                    {% for page in cached_pages %}
+                    <div class="col links">
+                        <a href="#/{{page.slug}}">[[{{page.title}}]]</a>
+                    </div>
+                    {% endfor %}
+                    {% endwith %}
                 </div>
                 <div class="col-sm-offset-2 col-sm-3 col-md-3 col-md-offset-1 col">
                     <a href="http://knightfoundation.org" target="_blank">

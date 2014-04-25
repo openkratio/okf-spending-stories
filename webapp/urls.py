@@ -11,17 +11,17 @@
 # Last mod : 08-Aug-2013
 # -----------------------------------------------------------------------------
 # This file is part of Spending Stories.
-# 
+#
 #     Spending Stories is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU General Public License as published by
 #     the Free Software Foundation, either version 3 of the License, or
 #     (at your option) any later version.
-# 
+#
 #     Spending Stories is distributed in the hope that it will be useful,
 #     but WITHOUT ANY WARRANTY; without even the implied warranty of
 #     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #     GNU General Public License for more details.
-# 
+#
 #     You should have received a copy of the GNU General Public License
 #     along with Spending Stories.  If not, see <http://www.gnu.org/licenses/>.
 
@@ -32,11 +32,11 @@ from django.conf.urls.static import static
 
 admin.autodiscover()
 
-urlpatterns = patterns('',    
+urlpatterns = patterns('',
     # Our main views URL, see webapp.core.urls
     # url(r'^',           include('webapp.core.urls')),
-    # API & API documentation urls 
-    url(r'^$', 			'webapp.core.views.home', name='home'),    
+    # API & API documentation urls
+    url(r'^$', 			'webapp.core.views.home', name='home'),
     url(r'^api/',       include('webapp.api.urls')),
     url(r'^admin/',     include(admin.site.urls)),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
