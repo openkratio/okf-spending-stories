@@ -63,13 +63,10 @@
             <div class="row">
                 <div class="col-sm-1 col-md-2">
                     {% include "partials/languages.html" %}
-                    <div class="col links">
-                        <a href="#/about">[[about]]</a>
-                    </div>
                     {% with cached_pages=pages %}
                     {% for page in cached_pages %}
                     <div class="col links">
-                        <a href="#/{{page.slug}}">[[{{page.title}}]]</a>
+                        <a href="#/{{page.slug}}">{{page.title}}</a>
                     </div>
                     {% endfor %}
                     {% endwith %}
