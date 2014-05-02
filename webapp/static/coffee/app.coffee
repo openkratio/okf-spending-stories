@@ -63,7 +63,7 @@ angular
                         templateUrl: "./partial/contribute.html"
                         reloadOnSearch: false
                     )
-                    .when('/about',
+                    .when('/:slug',
                         controller: 'staticPageCtrl'
                         templateUrl: './partial/staticpage.html'
                     )
