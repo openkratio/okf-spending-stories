@@ -5,5 +5,4 @@ staticfiles/
 *.db
 *.log
 fabfile.py
-uploaded/
 crowdin.yaml
